@@ -1,11 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 .grid-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 960px;
 }
 .grid-item {
-    width: 5.25vw;
-    height: 5.25vw;
+    flex: 1 0 50px;
+    height: 50px;
     color: #000;
     padding: 5px;
+}
+.shift-black {
+    background-color: #000;
+}
+
+.grid-size-button {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    padding: 24px 0;
+}
+.grid-size-text {
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+.grid-button {
+    margin-left: 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 12px;
+    background-color: #f56CF5;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFF;
 }
